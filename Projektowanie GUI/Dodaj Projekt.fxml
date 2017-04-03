@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="285.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="52.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwa Projektu :" />
+      <TextArea layoutX="164.0" layoutY="63.0" prefHeight="17.0" prefWidth="242.0" />
+      <Text layoutX="52.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opis (opcjonalne) :" />
+      <TextArea layoutX="164.0" layoutY="112.0" prefHeight="85.0" prefWidth="242.0" />
+      <Button layoutX="286.0" layoutY="241.0" mnemonicParsing="false" text="Zatwierdź zmiany &gt;" />
+      <Text layoutX="164.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dodaj Nowy Projekt">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="165.0" layoutY="87.0" prefHeight="17.0" prefWidth="242.0" />
+      <Text layoutX="52.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Termin Projektu:" />
+      <Button layoutX="29.0" layoutY="241.0" mnemonicParsing="false" text="&lt; Powrót" />
+   </children>
+</Pane>

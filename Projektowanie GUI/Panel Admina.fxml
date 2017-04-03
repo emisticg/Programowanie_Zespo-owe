@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="243.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="209.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Panel Admina">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Button layoutX="13.0" layoutY="51.0" mnemonicParsing="false" text="Dodaj Pracownika" />
+      <Button layoutX="14.0" layoutY="113.0" mnemonicParsing="false" text="Zarządzaj..." />
+      <Button layoutX="14.0" layoutY="144.0" mnemonicParsing="false" text="Zadania wymagające potwierdzenia" />
+      <Button layoutX="15.0" layoutY="175.0" mnemonicParsing="false" text="Zadania zakończone" />
+      <Button layoutX="13.0" layoutY="82.0" mnemonicParsing="false" text="Lista Pracowników" />
+      <Button layoutX="16.0" layoutY="204.0" mnemonicParsing="false" text="&lt; Powrót" />
+   </children>
+</Pane>

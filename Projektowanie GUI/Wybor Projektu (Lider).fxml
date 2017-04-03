@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Text layoutX="25.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wybierz Projekt">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <SplitMenuButton layoutX="25.0" layoutY="40.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="403.0" text="Projekt 1&#10;Projekt 2&#10;Projekt 3&#10;">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </SplitMenuButton>
+            <Button layoutX="29.0" layoutY="159.0" mnemonicParsing="false" text="Dodaj Projekt" />
+            <Button layoutX="494.0" layoutY="7.0" mnemonicParsing="false" text="Panel Admina" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Text layoutX="24.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wybierz Zadanie">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button layoutX="529.0" layoutY="157.0" mnemonicParsing="false" text="Dalej &gt;" />
+            <Button layoutX="25.0" layoutY="118.0" mnemonicParsing="false" text="Dodaj Zadanie" />
+            <SplitMenuButton layoutX="24.0" layoutY="51.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="403.0" text="Zadanie 1&#10;Zadanie 2&#10;Zadanie 3">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </SplitMenuButton>
+            <Button layoutX="26.0" layoutY="157.0" mnemonicParsing="false" text="&lt; Powrót" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
