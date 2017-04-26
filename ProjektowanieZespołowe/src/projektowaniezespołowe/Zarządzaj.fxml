@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projektowaniezespołowe.FXMLDocumentController">
+   <children>
+      <Text layoutX="13.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Potwierdź Finalizację Zadania: " />
+      <Text layoutX="14.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Potwierdź Finalizację Projektu:" />
+      <ComboBox layoutX="14.0" layoutY="88.0" prefHeight="25.0" prefWidth="276.0" />
+      <ComboBox layoutX="14.0" layoutY="178.0" prefHeight="25.0" prefWidth="276.0" />
+      <Button fx:id="potwierdz" layoutX="238.0" layoutY="127.0" mnemonicParsing="false" onAction="#potwierdz" text="Potwierdź" />
+      <Button fx:id="potwierdzZarzadzanie2" layoutX="238.0" layoutY="220.0" mnemonicParsing="false" onAction="#potwierdzZarzadzanie2" text="Potwierdź" />
+      <Button fx:id="odrzuc" layoutX="14.0" layoutY="127.0" mnemonicParsing="false" onAction="#odrzuc" text="Odrzuć" />
+      <Button fx:id="powrotZarzadzanie" layoutX="14.0" layoutY="256.0" mnemonicParsing="false" onAction="#powrotZarzadzanieButtonAction" text="&lt; Powrót" />
+      <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wybierz Projekt:" />
+      <ComboBox layoutX="14.0" layoutY="34.0" prefHeight="25.0" prefWidth="276.0" />
+   </children>
+</Pane>

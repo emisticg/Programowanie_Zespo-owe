@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProjektowanieZespo這we.jnlp">
+  <information>
+    <title>ProjektowanieZespo這we</title>
+    <vendor>Bush</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProjektowanieZespo這we.jar" size="29885" download="eager" />
+    <jar href="lib/mariadb-java-client-1.5.9.jar" size="454624" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProjektowanieZespo這we" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="projektowaniezespo這we.ProjektowanieZespo這we"  name="ProjektowanieZespo這we" />
+  <update check="always"/>
+</jnlp>

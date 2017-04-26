@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projektowaniezespołowe.FXMLDocumentController">
+   <children>
+      <Text layoutX="209.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Panel Admina">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Button layoutX="369.0" layoutY="336.0" mnemonicParsing="false" text="Zadania zakończone" />
+      <Button fx:id="powrotPanelAdmina" layoutX="28.0" layoutY="474.0" mnemonicParsing="false" onAction="#powrotPanelAdminaButtonAction" text="&lt; Powrót" />
+      <TitledPane animated="false" layoutX="28.0" layoutY="79.0" prefHeight="310.0" prefWidth="177.0" text="Lista Pracowników">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="291.0" prefWidth="175.0" />
+        </content>
+      </TitledPane>
+      <ToolBar layoutX="28.0" layoutY="389.0" prefHeight="35.0" prefWidth="177.0">
+        <items>
+          <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Dodaj" />
+        </items>
+      </ToolBar>
+      <TitledPane animated="false" layoutX="300.0" layoutY="79.0" prefHeight="151.0" prefWidth="263.0" text="Zadania do potwierdzenia">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="132.0" prefWidth="261.0" />
+        </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="300.0" layoutY="275.0" prefHeight="151.0" prefWidth="263.0" text="Zakończone zadania">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </TitledPane>
+      <ToolBar layoutX="300.0" layoutY="230.0" prefHeight="35.0" prefWidth="263.0">
+         <items>
+            <Button fx:id="zarządzaj" mnemonicParsing="false" onAction="#zarządzajButtonAction" prefHeight="25.0" prefWidth="76.0" text="Zarządzaj" />
+         </items>
+      </ToolBar>
+   </children>
+</Pane>
